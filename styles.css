@@ -1,0 +1,72 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0D1B2A;
+    color: #ffffff;
+    background-image: url('stars.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #E0E1DD;
+}
+
+p {
+    font-size: 18px;
+    color: #A9A9A9;
+}
+
+.favorites {
+    margin-top: 50px;
+}
+
+.favorites-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.favorites-section div {
+    background-color: #1B263B;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2, h3 {
+    color: #E0E1DD;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    color: #A9A9A9;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer p {
+    color: #A9A9A9;
+    font-size: 14px;
+}
